@@ -138,7 +138,8 @@ SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.st
 
 ## MeGAS
 
-[MeGAS](https://zju3dv.github.io/MeGAS/) brings temperature fields and thermomechanical phase transitions to Gaussian scenes for melting and solidification.
+[MeGAS](https://zju3dv.github.io/MeGAS/) incorporates thermomechanical phase-change dynamics with temperature fields and thermomechanical phase transitions to Gaussian scenes for melting and solidification.
+
 
 <p align="center">
   <b>Bidirectional Phase-Change Editing</b><br>
