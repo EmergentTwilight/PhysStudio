@@ -15,6 +15,7 @@ excluded from Git. Set `PHYSSTUDIO_DATA_ROOT` to use another storage location.
 | Land's End cliff | [SuperSplat model](https://superspl.at/scene/9e2051b8), draftmode · CC BY 4.0 | Lava, storms |
 | Potted Plant, Ficus, Alocasia | [DiffWind models](https://github.com/zju3dv/DiffWind/tree/a47530ec2fafd6f647c87a8f8e086b1905dbfe52/assets) · [source configurations](https://github.com/zju3dv/DiffWind/tree/a47530ec2fafd6f647c87a8f8e086b1905dbfe52/configs) | Plant wilting |
 | Orchard scans | [Apple](https://polyhaven.com/a/food_apple_01), [leaf](https://polyhaven.com/a/dry_quiver_leaf), [bowl](https://polyhaven.com/a/wooden_bowl_02) · CC0 | Capillary Contact |
+| Stanford Bunny | [Stanford scan](https://graphics.stanford.edu/data/3Dscanrep/) · [Open3D mirror](https://github.com/isl-org/open3d_downloads/releases/download/20220201-data/BunnyMesh.ply) | Ice Melting |
 | Calico Basin | [SuperSplat model](https://superspl.at/scene/5d517144), tosolini · CC BY 4.0 | Lava, storms |
 
 ```bash
@@ -31,6 +32,7 @@ python -m physstudio fetch potted_plant
 python -m physstudio fetch ficus
 python -m physstudio fetch alocasia
 python -m physstudio fetch orchard
+python -m physstudio fetch bunny
 # Or download all listed assets:
 python -m physstudio fetch all
 ```
@@ -51,6 +53,7 @@ data/
   lava_gs/{zohar,lands_end,calico}/
   plant_wilting/source/{potted_plant,ficus,alocasia}/
   surface_tension/{food_apple_01,dry_quiver_leaf,wooden_bowl_02}/
+  ice_melting/bunny.ply
 ```
 
 Downloaded models and source data retain their upstream licenses and attribution.
@@ -62,3 +65,5 @@ Water + Sand generates its scene geometry, materials, and particles procedurally
 Capillary Contact downloads 1K glTF scans from the Poly Haven API, checks upstream
 MD5 sums, and records SHA256 hashes. Its paperclips, discs, stirrers, and basins
 are procedural.
+
+Ice Melting verifies the Stanford Bunny mesh against a pinned SHA-256. Its ice cubes, arch, basins, and studio are procedural.

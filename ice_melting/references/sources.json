@@ -1,0 +1,41 @@
+{
+  "papers": [
+    {
+      "title": "Fast Particle-based Visual Simulation of Ice Melting",
+      "year": 2010,
+      "venue": "Computer Graphics Forum",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x"
+    },
+    {
+      "title": "Ice Melting Simulation with Water Flow Handling",
+      "year": 2014,
+      "url": "https://people.cs.nycu.edu.tw/~cswingo/research/papers/Ice%20Melting%20Simulation_Lii_Wong.pdf"
+    },
+    {
+      "title": "Position Based Fluids",
+      "year": 2013,
+      "url": "https://mmacklin.com/pbf_sig_preprint.pdf"
+    },
+    {
+      "title": "Unified Particle Physics for Real-Time Applications",
+      "year": 2014,
+      "url": "https://mmacklin.com/uppfrta_preprint.pdf"
+    },
+    {
+      "title": "Versatile Surface Tension and Adhesion for SPH Fluids",
+      "year": 2013,
+      "url": "https://cg.informatik.uni-freiburg.de/publications/2013_SIGGRAPHASIA_surfaceTensionAdhesion.pdf"
+    }
+  ],
+  "asset": {
+    "name": "Stanford Bunny",
+    "source": "https://graphics.stanford.edu/data/3Dscanrep/",
+    "download": "https://github.com/isl-org/open3d_downloads/releases/download/20220201-data/BunnyMesh.ply",
+    "sha256": "b1acc63bece78444aa2e15bdcc72371a201279b98c6f5d4b74c993d02f0566fe"
+  },
+  "renderer": {
+    "name": "Blender",
+    "version": "4.2.9",
+    "url": "https://download.blender.org/release/Blender4.2/"
+  }
+}

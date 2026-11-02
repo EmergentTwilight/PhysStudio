@@ -16,10 +16,11 @@ listed in [INSTALL.md](INSTALL.md).
 | Storms | Moisture and latent heat, pressure projection, wall contact, dust transport, occlusion; all three pipelines and frozen-state rendering |
 | Lightning | Poisson accuracy, gauge invariance, conductor enhancement, charge balance, occlusion; all three pipelines and frozen-state rendering |
 | Capillary Contact | Energy/contact derivatives, surface-current operators, solid gaps, volume; all three simulation/render pipelines |
-| Launcher | All 33 presets; existing 30 command plans unchanged |
+| Ice Melting | Heat and latent energy, rigid ice, liquid density, wetting kernels; all three simulation/render pipelines |
+| Launcher | All 36 presets; existing 33 command plans unchanged |
 | Downloads | ZIP extraction, CRC-checked cache, destination confinement; SuperSplat manifest, conversion, and camera setup |
-| Media | All 34 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
-| Package | Wheel includes all method modules, reference attribution, and Plant Wilting runtime/download metadata |
+| Media | All 37 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
+| Package | Wheel includes all method modules, reference attribution, and Plant Wilting and Ice Melting runtime/download metadata |
 | Source | Python syntax, English text, portable paths, local documentation links |
 
 Each end-to-end pipeline check used two simulation/video steps. The Playground
@@ -74,3 +75,14 @@ All nine published MP4/GIF/JPG files match the approved originals; every GIF
 frame and all three videos decode. Fresh Poly Haven downloads match the orchard
 source assets. The wheel includes the solver, renderer, checks, run guide, and
 paper/asset references.
+
+Ice Melting keeps five core modules byte-identical to the development version;
+its renderer matches after root-path normalization. All three presets completed
+two-frame pipelines at the full particle resolution, including numerical checks,
+mesh reconstruction, Cycles rendering, and video encoding. Cubes and arch run
+without downloaded models. A fresh Bunny download matches its pinned SHA-256.
+Two frozen Bunny frames were compared at 1280 x 800 with a maximum channel
+difference of one 8-bit intensity level. The released videos match the three
+approved 240-frame originals, including Bunny's updated wetting film; every GIF
+frame decodes. The wheel includes the solver, renderer, checks, run guide, and
+source metadata.

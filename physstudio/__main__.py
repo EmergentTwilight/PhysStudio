@@ -23,6 +23,7 @@ SCENES = {
     "storm": ("playground", "lands_end", "calico"),
     "thunder": ("firewoods", "zohar", "train"),
     "capillary": ("orchard", "capillary_cluster", "paperclips"),
+    "ice": ("cubes", "arch", "bunny"),
 }
 
 
@@ -41,6 +42,11 @@ def command(module, **options):
 
 def plan(args):
     out = args.output
+    if args.method == "ice":
+        cmd = command("ice_melting.harness", scene=args.scene, output=out,
+                      gpu=args.gpu, frames=args.frames, width=args.width)
+        cmd.insert(3, "run")
+        return [cmd]
     if args.method == "capillary":
         cmd = command("surface_tension.harness", scene=args.scene, output=out,
                       gpu=args.gpu, frames=args.frames, width=args.width,
@@ -229,6 +235,7 @@ def main():
             "ficus",
             "alocasia",
             "orchard",
+            "bunny",
             "all",
         ),
     )
@@ -249,6 +256,7 @@ def main():
                 "ficus",
                 "alocasia",
                 "orchard",
+                "bunny",
             )
             if args.asset == "all"
             else (args.asset,)
@@ -262,6 +270,8 @@ def main():
                 )
             elif asset in ("zohar", "lands_end", "calico"):
                 cmd = command("lava_gs.fetch", scene=asset)
+            elif asset == "bunny":
+                cmd = command("ice_melting.fetch")
             elif asset == "orchard":
                 cmd = command("surface_tension.fetch")
             elif asset in ("potted_plant", "ficus", "alocasia"):
@@ -274,6 +284,8 @@ def main():
         parser.error("Choose a scene from: " + ", ".join(SCENES[args.method]))
     if args.frames is not None and args.frames < 1:
         parser.error("--frames must be positive")
+    if args.method == "ice" and args.frames is not None and args.frames < 2:
+        parser.error("Ice melting requires at least two frames")
     if args.width is not None and (args.width < 32 or args.width % 2):
         parser.error("--width must be even and at least 32")
     args.output = (

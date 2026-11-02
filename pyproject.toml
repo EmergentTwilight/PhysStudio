@@ -7,13 +7,13 @@ name = "physstudio"
 version = "0.1.0"
 description = "Recreating fun physics-based animation projects through vibe coding."
 requires-python = ">=3.10"
-dependencies = ["torch>=2.4,<2.5", "numpy==1.26.4", "scipy==1.14.0", "Pillow==10.4.0", "plyfile==1.1", "warp-lang==1.6.2", "gsplat==1.5.3", "osqp==1.0.5", "ninja==1.11.1.3"]
+dependencies = ["torch>=2.4,<2.5", "numpy==1.26.4", "scipy==1.14.0", "Pillow==10.4.0", "plyfile==1.1", "warp-lang==1.6.2", "gsplat==1.5.3", "osqp==1.0.5", "ninja==1.11.1.3", "trimesh==4.5.3"]
 
 [project.scripts]
 physstudio = "physstudio.__main__:main"
 
 [tool.setuptools.packages.find]
-include = ["physstudio*", "rainy_gs*", "gaussian_splashing*", "enlivening_gs*", "magnetic_mpm*", "snowy_gs*", "lava_gs*", "water_sand*", "plant_wilting*", "storm_gs*", "thunder_gs*", "surface_tension*"]
+include = ["physstudio*", "rainy_gs*", "gaussian_splashing*", "enlivening_gs*", "magnetic_mpm*", "snowy_gs*", "lava_gs*", "water_sand*", "plant_wilting*", "storm_gs*", "thunder_gs*", "surface_tension*", "ice_melting*"]
 
 [tool.setuptools.package-data]
 rainy_gs = ["configs/*.json"]
@@ -23,3 +23,4 @@ plant_wilting = ["LICENSE.reference", "references/*.json", "requirements-solver.
 storm_gs = ["configs/*.json", "references/*.json", "README.md"]
 thunder_gs = ["configs/*.json", "references/*.json", "README.md"]
 surface_tension = ["references/*.json", "requirements.txt", "README.md", "METHOD.md"]
+ice_melting = ["references/*.json", "requirements.txt", "README.md", "METHOD.md"]

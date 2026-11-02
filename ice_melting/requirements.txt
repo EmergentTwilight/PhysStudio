@@ -1,0 +1,5 @@
+numpy==1.26.4
+scipy==1.14.0
+Pillow==10.4.0
+warp-lang==1.6.2
+trimesh==4.5.3

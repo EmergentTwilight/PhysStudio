@@ -50,3 +50,9 @@ Capillary Contact follows the surface-energy and rigid-contact formulation of
 [Blender](https://www.blender.org/) supplies Cycles rendering; the orchard models
 come from [Poly Haven](https://polyhaven.com/) under CC0.
 [Sources](surface_tension/references/sources.json).
+
+Ice Melting combines particle enthalpy transport, position-based fluids, rigid
+shape matching, and ice/water surface forces from the visual ice-melting
+literature. [Paper and asset references](ice_melting/references/sources.json)
+record the source links and pinned Stanford Bunny download. Blender supplies
+Cycles rendering; the other scene geometry is procedural.

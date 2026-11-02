@@ -507,5 +507,47 @@
     "nb_frames": "240",
     "duration": "8.000000",
     "sha256": "16218daf2dfaf40c3461dbc07ca1bfd5e6a983dc8d7352a7b6fa5b2aa180e0bf"
+  },
+  {
+    "method": "ice_melting",
+    "scene": "cubes",
+    "label": "Ice cubes",
+    "paper": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x",
+    "video": "media/ice_melting/cubes.mp4",
+    "command": "python -m physstudio run ice cubes --gpu 0",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "240",
+    "duration": "8.000000",
+    "sha256": "f0e8f5b622f735663ad9d5c96f8a19b6be1e414a92106f50f0ded75d83b97018"
+  },
+  {
+    "method": "ice_melting",
+    "scene": "arch",
+    "label": "Thawing arch",
+    "paper": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x",
+    "video": "media/ice_melting/arch.mp4",
+    "command": "python -m physstudio run ice arch --gpu 0",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "240",
+    "duration": "8.000000",
+    "sha256": "5efa0830c12d0a6e5734618f8172c8130582b77d5970c3d369a6a7fd4c3a6729"
+  },
+  {
+    "method": "ice_melting",
+    "scene": "bunny",
+    "label": "Bunny",
+    "paper": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x",
+    "video": "media/ice_melting/bunny.mp4",
+    "command": "python -m physstudio run ice bunny --gpu 0",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "240",
+    "duration": "8.000000",
+    "sha256": "3a5abdd1de192f38c2a8d47dd0f31dead93dcf6e48784596871aa914ed61e972"
   }
 ]

@@ -94,3 +94,15 @@ python -m physstudio run capillary paperclips --gpu 0
 
 See [Capillary Contact](surface_tension/README.md) for the orchard assets,
 CPU rendering, and all three presets. `--frames` controls both saved states and video frames.
+
+Ice Melting uses Warp 1.6.2 and trimesh for simulation and Blender 4.2.9 for rendering:
+
+```bash
+python -m pip install -r ice_melting/requirements.txt
+export BLENDER=/path/to/blender
+python -m physstudio run ice cubes --gpu 0
+```
+
+See [Ice Melting](ice_melting/README.md) for the arch, Bunny download, and replay.
+`--frames` selects the number of saved states and video frames, with at least two;
+short runs retain the normal time interval between frames.

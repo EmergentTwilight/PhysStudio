@@ -11,7 +11,7 @@
 
 [RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
 [SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas) · [LavaGS](#lavags) · [Water + Sand](#water-sand)<br>
-[Plant Wilting](#plant-wilting) · [StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact)
+[Plant Wilting](#plant-wilting) · [StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -245,6 +245,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 [**Code & run guide →**](surface_tension/README.md)
 
+<a id="ice-melting"></a>
+
+## Ice Melting
+
+[Fast Particle-based Visual Simulation of Ice Melting](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x) and [Ice Melting Simulation with Water Flow Handling](https://people.cs.nycu.edu.tw/~cswingo/research/papers/Ice%20Melting%20Simulation_Lii_Wong.pdf) explore particle heat transfer, melting ice, and flowing water.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/ice_melting/cubes.mp4"><img src="media/ice_melting/cubes.gif" width="360" alt="Ice cubes drifting and melting in warm water"></a><br><b>Ice cubes</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/ice_melting/arch.mp4"><img src="media/ice_melting/arch.gif" width="360" alt="An ice arch melting under local heating"></a><br><b>Thawing arch</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/ice_melting/bunny.mp4"><img src="media/ice_melting/bunny.gif" width="360" alt="An ice bunny melting into a continuous pool"></a><br><b>Bunny</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](ice_melting/README.md)
+
 ---
 
 ## Run a demo
@@ -276,6 +292,7 @@ plant_wilting/        Water transport, Newton rods, and Gaussian plant motion
 storm_gs/             Moist vortices, rain, sea spray, and transported dust
 thunder_gs/           Electric discharge, grounded terrain, and flash lighting
 surface_tension/      Capillary contact, stirring, surface currents, and Cycles rendering
+ice_melting/          Heat transport, phase change, rigid ice, and meltwater
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```
