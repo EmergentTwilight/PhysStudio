@@ -43,3 +43,10 @@ ThunderGS implements the electrical-discharge model from
 with a neutral floating-channel correction and Gaussian-scene lighting.
 Firewoods and Train reuse the RainyGS assets; Zohar is the CC BY 4.0 scene
 by barak9177 used in LavaGS. [Sources](thunder_gs/references/sources.json).
+
+Capillary Contact follows the surface-energy and rigid-contact formulation of
+[Solid-Fluid Interaction with Surface-Tension-Dominant Contact](https://arxiv.org/abs/2105.08471)
+(SIGGRAPH 2021), with a height-field fluid adapter and transported surface currents.
+[Blender](https://www.blender.org/) supplies Cycles rendering; the orchard models
+come from [Poly Haven](https://polyhaven.com/) under CC0.
+[Sources](surface_tension/references/sources.json).

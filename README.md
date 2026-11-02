@@ -9,8 +9,9 @@
 ![3DGS](https://img.shields.io/badge/3D-Gaussian_Splatting-a78bfa?style=flat-square)
 ![Vibe Coding](https://img.shields.io/badge/Made_with-Vibe_Coding-22d3ee?style=flat-square)
 
-[RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm) · [SnowyGS](#snowygs)<br>
-[DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas) · [LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting) · [StormGS](#stormgs) · [ThunderGS](#thundergs)
+[RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
+[SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas) · [LavaGS](#lavags) · [Water + Sand](#water-sand)<br>
+[Plant Wilting](#plant-wilting) · [StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -228,6 +229,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 [**Code & run guide →**](thunder_gs/README.md)
 
+<a id="capillary-contact"></a>
+
+## Capillary Contact
+
+[Solid-Fluid Interaction with Surface-Tension-Dominant Contact](https://arxiv.org/abs/2105.08471) couples surface tension and solid contact to support floating objects and produce capillary clustering.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/surface_tension/orchard.mp4"><img src="media/surface_tension/orchard.gif" width="360" alt="Miniature scanned apples on a liquid surface"></a><br><b>Miniature orchard</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/surface_tension/capillary_cluster.mp4"><img src="media/surface_tension/capillary_cluster.gif" width="360" alt="A moving stirrer interacts with a cluster of floating colored pins"></a><br><b>Capillary cluster</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/surface_tension/paperclips.mp4"><img src="media/surface_tension/paperclips.gif" width="360" alt="A steel stirrer moves floating paperclips through capillary waves"></a><br><b>Paperclips</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](surface_tension/README.md)
+
 ---
 
 ## Run a demo
@@ -258,6 +275,7 @@ water_sand/           Air–water LBM, granular MPM, and Gaussian grains
 plant_wilting/        Water transport, Newton rods, and Gaussian plant motion
 storm_gs/             Moist vortices, rain, sea spray, and transported dust
 thunder_gs/           Electric discharge, grounded terrain, and flash lighting
+surface_tension/      Capillary contact, stirring, surface currents, and Cycles rendering
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```

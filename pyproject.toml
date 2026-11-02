@@ -13,7 +13,7 @@ dependencies = ["torch>=2.4,<2.5", "numpy==1.26.4", "scipy==1.14.0", "Pillow==10
 physstudio = "physstudio.__main__:main"
 
 [tool.setuptools.packages.find]
-include = ["physstudio*", "rainy_gs*", "gaussian_splashing*", "enlivening_gs*", "magnetic_mpm*", "snowy_gs*", "lava_gs*", "water_sand*", "plant_wilting*", "storm_gs*", "thunder_gs*"]
+include = ["physstudio*", "rainy_gs*", "gaussian_splashing*", "enlivening_gs*", "magnetic_mpm*", "snowy_gs*", "lava_gs*", "water_sand*", "plant_wilting*", "storm_gs*", "thunder_gs*", "surface_tension*"]
 
 [tool.setuptools.package-data]
 rainy_gs = ["configs/*.json"]
@@ -22,3 +22,4 @@ water_sand = ["LICENSE.reference", "references/*.json", "README.md"]
 plant_wilting = ["LICENSE.reference", "references/*.json", "requirements-solver.txt", "README.md"]
 storm_gs = ["configs/*.json", "references/*.json", "README.md"]
 thunder_gs = ["configs/*.json", "references/*.json", "README.md"]
+surface_tension = ["references/*.json", "requirements.txt", "README.md", "METHOD.md"]

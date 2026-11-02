@@ -465,5 +465,47 @@
     "nb_frames": "240",
     "duration": "8.000000",
     "sha256": "d11034de8ee991dfef1ec3056f9c934626852bf07685e517de5b2d085fe539c9"
+  },
+  {
+    "method": "surface_tension",
+    "scene": "orchard",
+    "label": "Miniature orchard",
+    "paper": "https://arxiv.org/abs/2105.08471",
+    "video": "media/surface_tension/orchard.mp4",
+    "command": "python -m physstudio run capillary orchard --gpu 0",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "180",
+    "duration": "6.000000",
+    "sha256": "aa88738c5743ca5acbf5d63c181d534553d15d48b8228e854cb38059e49b3ebc"
+  },
+  {
+    "method": "surface_tension",
+    "scene": "capillary_cluster",
+    "label": "Capillary cluster",
+    "paper": "https://arxiv.org/abs/2105.08471",
+    "video": "media/surface_tension/capillary_cluster.mp4",
+    "command": "python -m physstudio run capillary capillary_cluster --gpu 0",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "240",
+    "duration": "8.000000",
+    "sha256": "38b27bf20fc30ecc2660a4831017a353a00985a51498dce1e0b855d6fc2c6504"
+  },
+  {
+    "method": "surface_tension",
+    "scene": "paperclips",
+    "label": "Paperclips",
+    "paper": "https://arxiv.org/abs/2105.08471",
+    "video": "media/surface_tension/paperclips.mp4",
+    "command": "python -m physstudio run capillary paperclips --gpu 0",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "nb_frames": "240",
+    "duration": "8.000000",
+    "sha256": "16218daf2dfaf40c3461dbc07ca1bfd5e6a983dc8d7352a7b6fa5b2aa180e0bf"
   }
 ]

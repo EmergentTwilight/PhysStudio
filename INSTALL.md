@@ -83,3 +83,14 @@ python -m physstudio run thunder firewoods --gpu 0
 ```
 
 See [ThunderGS](thunder_gs/README.md) for Zohar, Train, cached discharges, and replay.
+
+Capillary Contact uses NumPy/SciPy for simulation and Blender 4.2.9 for rendering:
+
+```bash
+python -m pip install -r surface_tension/requirements.txt
+export BLENDER=/path/to/blender
+python -m physstudio run capillary paperclips --gpu 0
+```
+
+See [Capillary Contact](surface_tension/README.md) for the orchard assets,
+CPU rendering, and all three presets. `--frames` controls both saved states and video frames.

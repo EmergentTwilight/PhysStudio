@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "title": "Solid-Fluid Interaction with Surface-Tension-Dominant Contact",
+    "venue": "SIGGRAPH 2021 / ACM TOG 40(4), Article 120",
+    "url": "https://arxiv.org/abs/2105.08471"
+  },
+  "assets": [
+    {
+      "name": "food_apple_01",
+      "url": "https://polyhaven.com/a/food_apple_01",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "dry_quiver_leaf",
+      "url": "https://polyhaven.com/a/dry_quiver_leaf",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "wooden_bowl_02",
+      "url": "https://polyhaven.com/a/wooden_bowl_02",
+      "license": "CC0-1.0"
+    }
+  ],
+  "renderer": {
+    "name": "Blender",
+    "version": "4.2.9",
+    "url": "https://download.blender.org/release/Blender4.2/"
+  }
+}

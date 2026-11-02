@@ -15,9 +15,10 @@ listed in [INSTALL.md](INSTALL.md).
 | Plant Wilting | Public-asset hashes, isolated Newton installation, all three pipelines, transport and binding checks |
 | Storms | Moisture and latent heat, pressure projection, wall contact, dust transport, occlusion; all three pipelines and frozen-state rendering |
 | Lightning | Poisson accuracy, gauge invariance, conductor enhancement, charge balance, occlusion; all three pipelines and frozen-state rendering |
-| Launcher | All 30 presets; existing 27 command plans unchanged |
+| Capillary Contact | Energy/contact derivatives, surface-current operators, solid gaps, volume; all three simulation/render pipelines |
+| Launcher | All 33 presets; existing 30 command plans unchanged |
 | Downloads | ZIP extraction, CRC-checked cache, destination confinement; SuperSplat manifest, conversion, and camera setup |
-| Media | All 31 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
+| Media | All 34 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
 | Package | Wheel includes all method modules, reference attribution, and Plant Wilting runtime/download metadata |
 | Source | Python syntax, English text, portable paths, local documentation links |
 
@@ -63,3 +64,13 @@ Gaussian render, video audit, and gallery build. Nine full-resolution frozen
 keyframes reproduce the development images pixel for pixel. The three released
 videos contain 240 frames at 30 fps; the wheel includes all ThunderGS modules,
 scene calibrations, run guide, and paper/asset references.
+
+Capillary Contact keeps ten simulation and numerical-check modules byte-identical
+to the accepted development version. Each exported preset completed a two-frame
+simulation at the full 96 x 77 resolution, its numerical and trajectory checks,
+a Cycles render, and video decoding. The complete showcase contains the accepted
+180-frame orchard and 240-frame stirred cluster and paperclip trajectories.
+All nine published MP4/GIF/JPG files match the approved originals; every GIF
+frame and all three videos decode. Fresh Poly Haven downloads match the orchard
+source assets. The wheel includes the solver, renderer, checks, run guide, and
+paper/asset references.

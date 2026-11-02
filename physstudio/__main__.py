@@ -22,6 +22,7 @@ SCENES = {
     "wilting": ("potted_plant", "ficus", "alocasia"),
     "storm": ("playground", "lands_end", "calico"),
     "thunder": ("firewoods", "zohar", "train"),
+    "capillary": ("orchard", "capillary_cluster", "paperclips"),
 }
 
 
@@ -40,6 +41,12 @@ def command(module, **options):
 
 def plan(args):
     out = args.output
+    if args.method == "capillary":
+        cmd = command("surface_tension.harness", scene=args.scene, output=out,
+                      gpu=args.gpu, frames=args.frames, width=args.width,
+                      stirrer=args.scene != "orchard")
+        cmd.insert(3, "run")
+        return [cmd]
     if args.method == "thunder":
         return [
             command("thunder_gs.simulate", scene=args.scene, output=out / "simulation"),
@@ -221,6 +228,7 @@ def main():
             "potted_plant",
             "ficus",
             "alocasia",
+            "orchard",
             "all",
         ),
     )
@@ -240,6 +248,7 @@ def main():
                 "potted_plant",
                 "ficus",
                 "alocasia",
+                "orchard",
             )
             if args.asset == "all"
             else (args.asset,)
@@ -253,6 +262,8 @@ def main():
                 )
             elif asset in ("zohar", "lands_end", "calico"):
                 cmd = command("lava_gs.fetch", scene=asset)
+            elif asset == "orchard":
+                cmd = command("surface_tension.fetch")
             elif asset in ("potted_plant", "ficus", "alocasia"):
                 cmd = command("plant_wilting.fetch", scene=asset)
             else:
