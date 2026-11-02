@@ -298,3 +298,18 @@ media/                Demo videos, animated previews, and an HTML gallery
 ```
 
 </details>
+
+## Contributors ✨
+
+🤝 Thanks go to these wonderful people:
+
+[Yuanhang Lei](https://github.com/huahuo359) · [Zesong Yang](https://yzszy.github.io/) · Baofei Liu · Zixuan Wang · Minghao Feng · Tao Cheng · Xingxuan Li · Weiran Shi
+
+We are grateful to our advisors, [Prof. Hujun Bao](https://person.zju.edu.cn/en/0093140), [Prof. Zhaopeng Cui](https://zhpcui.github.io/), [Dr. Siyuan Huang](https://siyuanhuang.com/), [Prof. Peter Yichen Chen](https://peterchencyc.com/), and [Prof. Ruizhen Hu](https://csse.szu.edu.cn/staff/ruizhenhu/), for their guidance and support.
+
+This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
+
+## Acknowledgements
+
+We thank the authors of the research papers that inspired PhysStudio for their contributions to physics-based animation and simulation. Their ideas and methods provide the foundation for the implementations explored in this project. We also thank the developers and maintainers of the open-source libraries, tools, and resources that make this work possible.
+
