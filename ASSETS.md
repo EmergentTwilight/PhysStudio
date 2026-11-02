@@ -5,9 +5,10 @@ excluded from Git. Set `PHYSSTUDIO_DATA_ROOT` to use another storage location.
 
 | Asset | Source and download | Used by |
 | :--- | :--- | :--- |
-| Playground | [FieryGS](https://github.com/PKU-VCL-Geometry/FieryGS#data) · [archive](https://drive.google.com/file/d/1NFXzr0YU3q1_ezjWVEgTmd-R8JX4J0lL/view) | Rain, snow, storms |
-| Firewoods | [FieryGS](https://github.com/PKU-VCL-Geometry/FieryGS#data) · [archive](https://drive.google.com/file/d/1EMWrcSLbeLjTWyGUh_cThYGvrrmMrvC0/view) | Rain, snow, lightning |
+| Playground | [FieryGS](https://github.com/PKU-VCL-Geometry/FieryGS#data) · [archive](https://drive.google.com/file/d/1NFXzr0YU3q1_ezjWVEgTmd-R8JX4J0lL/view) | Rain, snow, storms, fire suppression |
+| Firewoods | [FieryGS](https://github.com/PKU-VCL-Geometry/FieryGS#data) · [archive](https://drive.google.com/file/d/1EMWrcSLbeLjTWyGUh_cThYGvrrmMrvC0/view) | Rain, snow, lightning, fire suppression |
 | Train | [Voxel51 model](https://huggingface.co/datasets/Voxel51/gaussian_splatting/tree/main/FO_dataset/train) · [Graphdeco cameras](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip) | Rain, snow, lightning |
+| Bonsai | [Graphdeco 3DGS](https://github.com/graphdeco-inria/gaussian-splatting) · [pretrained archive](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip) | Fire suppression |
 | Bread | [PhysGaussian](https://github.com/XPandora/PhysGaussian) · [archive](https://drive.google.com/file/d/1e2_9OxfVtLSJTKl_y3TPaYQGjnvr3koT/view) | Splashing, locomotion, magnetism |
 | Wolf | [PhysGaussian](https://github.com/XPandora/PhysGaussian) · [archive](https://drive.google.com/file/d/1FhB_1LFaC2ax71gbySn6hVR88_IiK0eU/view) | Splashing, locomotion, magnetism |
 | Vase | [PhysGaussian](https://github.com/XPandora/PhysGaussian) · [archive](https://drive.google.com/file/d/1AZh-JCNTwq9Za0rxFpDEBk-9tN6o_izs/view) | Locomotion |
@@ -33,6 +34,7 @@ python -m physstudio fetch ficus
 python -m physstudio fetch alocasia
 python -m physstudio fetch orchard
 python -m physstudio fetch bunny
+python -m physstudio fetch bonsai
 # Or download all listed assets:
 python -m physstudio fetch all
 ```
@@ -67,3 +69,14 @@ MD5 sums, and records SHA256 hashes. Its paperclips, discs, stirrers, and basins
 are procedural.
 
 Ice Melting verifies the Stanford Bunny mesh against a pinned SHA-256. Its ice cubes, arch, basins, and studio are procedural.
+
+Fire-X GS also needs the released FieryGS Gaussian-to-voxel mapping files.
+Its downloader fetches each scene together with those files:
+
+```bash
+python -m firex_gs.fetch --scene all
+```
+
+Mappings are stored in `data/firex_gs/fierygs/`, Bonsai in
+`data/firex_gs/graphdeco/bonsai/`, and generated material masks in
+`data/firex_gs/prepared/`. [Scene preparation and run guide](firex_gs/README.md).

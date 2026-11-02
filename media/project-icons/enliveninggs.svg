@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>EnliveningGS physics icon</title>
+  <g stroke="#7b79b0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m19 18 7-4 6 10 8 1M26 14l-4 14-10 6-3 7m13-13 10 3 3 10"/>
+      <path d="M5 20h7M4 26h8M6 44h34" stroke="#62afa4"/>
+      <circle cx="29" cy="7" r="4" fill="#7b79b018"/>
+      <circle cx="26" cy="14" r="2.3" fill="#62afa4" stroke="none"/>
+      <circle cx="22" cy="28" r="2.8" fill="#62afa4" stroke="none"/>
+      <circle cx="32" cy="31" r="2.3" fill="#62afa4" stroke="none"/>
+      </g>
+</svg>

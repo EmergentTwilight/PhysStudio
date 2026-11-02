@@ -1,4 +1,4 @@
-# RainyGS · rain, ripples, and wet reflections
+# <img src="../media/project-icons/rainygs.svg" width="40" height="40" align="absmiddle" alt=""> RainyGS · rain, ripples, and wet reflections
 
 Inspired by [RainyGS: Efficient Rain Synthesis with Physically-Based Gaussian
 Splatting](https://pku-vcl-geometry.github.io/RainyGS/), which brings physically

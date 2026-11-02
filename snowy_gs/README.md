@@ -1,4 +1,4 @@
-# SnowyGS · a winter pass for Gaussian scenes
+# <img src="../media/project-icons/snowygs.svg" width="40" height="40" align="absmiddle" alt=""> SnowyGS · a winter pass for Gaussian scenes
 
 SnowyGS brings the elastoplastic model of [A Material Point Method for Snow
 Simulation](https://alexey.stomakhin.com/research/snow.html) into Gaussian scenes,

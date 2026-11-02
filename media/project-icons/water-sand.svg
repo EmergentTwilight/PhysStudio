@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Water + Sand physics icon</title>
+  <g stroke="#368fae" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 20c4-8 9-9 15-5s10 5 13-1c2 6 0 10-4 12 6 0 10-2 14-5"/>
+      <path d="M6 28c7 0 10-3 16-3s12 4 20 2" stroke="#bc9359"/>
+      <g fill="#bc9359" stroke="none">
+        <circle cx="10" cy="34" r="2"/><circle cx="19" cy="32" r="2"/><circle cx="28" cy="34" r="2"/><circle cx="38" cy="33" r="2"/>
+        <circle cx="7" cy="41" r="2"/><circle cx="16" cy="40" r="2"/><circle cx="25" cy="41" r="2"/><circle cx="34" cy="40" r="2"/><circle cx="42" cy="41" r="2"/>
+      </g>
+      </g>
+</svg>

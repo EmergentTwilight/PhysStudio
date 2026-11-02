@@ -17,10 +17,11 @@ listed in [INSTALL.md](INSTALL.md).
 | Lightning | Poisson accuracy, gauge invariance, conductor enhancement, charge balance, occlusion; all three pipelines and frozen-state rendering |
 | Capillary Contact | Energy/contact derivatives, surface-current operators, solid gaps, volume; all three simulation/render pipelines |
 | Ice Melting | Heat and latent energy, rigid ice, liquid density, wetting kernels; all three simulation/render pipelines |
-| Launcher | All 36 presets; existing 33 command plans unchanged |
+| Fire suppression | Reaction and water-energy balance, gas/solid boundaries, wood conduction, carbonization; all three pipelines and frozen-state rendering |
+| Launcher | All 39 presets; existing 36 command plans unchanged |
 | Downloads | ZIP extraction, CRC-checked cache, destination confinement; SuperSplat manifest, conversion, and camera setup |
-| Media | All 37 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
-| Package | Wheel includes all method modules, reference attribution, and Plant Wilting and Ice Melting runtime/download metadata |
+| Media | All 40 MP4s decoded; preview files and hashes verified; MeGAS full-frame looping preview |
+| Package | Wheel includes all method modules, reference attribution, and Plant Wilting, Ice Melting, and Fire-X GS runtime/download metadata |
 | Source | Python syntax, English text, portable paths, local documentation links |
 
 Each end-to-end pipeline check used two simulation/video steps. The Playground
@@ -86,3 +87,14 @@ difference of one 8-bit intensity level. The released videos match the three
 approved 240-frame originals, including Bunny's updated wetting film; every GIF
 frame decodes. The wheel includes the solver, renderer, checks, run guide, and
 source metadata.
+
+Fire-X GS preserves seven core physics and execution modules after import-path
+normalization and formatting. All three presets completed two-frame pipelines
+at their full simulation grid resolutions, including numerical checks, Gaussian
+rendering, material and carbonization audits, and video/report generation.
+Freshly prepared Playground and Bonsai material arrays match the development
+assets exactly. Nine frozen frames reproduce the development images pixel for
+pixel at 1280 x 800. The released videos match the accepted 420-frame Firewoods
+and 450-frame Playground and Bonsai originals; every GIF frame decodes. The
+wheel includes the modules, scene calibrations, run guide, CIE table, and
+reference attribution.

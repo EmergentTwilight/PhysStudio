@@ -1,0 +1,8 @@
+{
+  "source": "FieryGS official Firewoods_sand_dark; released PGSR model and cameras",
+  "ground_fit": {
+    "bounds": [-3.5, -3.5, -2.65, 3.5, 3.5, -2.3],
+    "normal_z": 0.9
+  },
+  "bounds": [-5.0, -5.0, 5.0, 5.0]
+}

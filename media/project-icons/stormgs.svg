@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>StormGS physics icon</title>
+  <g stroke="#7588a4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 12c0-5 30-7 30-1s-23 8-31 5M12 21c7 4 25 1 25-3M16 27c9 2 18-1 18-4M21 32c6 0 11-3 11-4M25 37c5-2 5-6 5-6"/>
+      <path d="M8 42c5-3 10 2 15 0s9-4 17-1" stroke="#6eb5c2"/>
+      <path d="M6 29h4M39 32h3" stroke="#6eb5c2"/>
+      </g>
+</svg>

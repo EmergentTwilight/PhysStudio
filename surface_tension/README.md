@@ -1,4 +1,4 @@
-# Capillary Contact
+# <img src="../media/project-icons/capillary-contact.svg" width="40" height="40" align="absmiddle" alt=""> Capillary Contact
 
 [Solid-Fluid Interaction with Surface-Tension-Dominant Contact](https://arxiv.org/abs/2105.08471)
 (SIGGRAPH 2021) couples surface tension and solid contact to support floating

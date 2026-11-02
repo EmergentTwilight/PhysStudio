@@ -2,7 +2,7 @@
 
 <img src="media/physstudio-wordmark-v3.svg" alt="PhysStudio — animated physics wordmark" width="100%">
 
-**Recreating fun physics-based animation projects through vibe coding.**
+**A vibe-coded world simulator for recreating and exploring physics-based animation.**
 
 ![Python](https://img.shields.io/badge/Python-3.10-60a5fa?style=flat-square&logo=python&logoColor=white)
 ![Warp](https://img.shields.io/badge/NVIDIA-Warp_1.6-76b900?style=flat-square&logo=nvidia&logoColor=white)
@@ -10,8 +10,9 @@
 ![Vibe Coding](https://img.shields.io/badge/Made_with-Vibe_Coding-22d3ee?style=flat-square)
 
 [RainyGS](#rainygs) · [Gaussian Splashing](#gaussian-splashing) · [EnliveningGS](#enliveninggs) · [Magnetic MPM](#magnetic-mpm)<br>
-[SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas) · [LavaGS](#lavags) · [Water + Sand](#water-sand)<br>
-[Plant Wilting](#plant-wilting) · [StormGS](#stormgs) · [ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting)
+[SnowyGS](#snowygs) · [DiffWind](#diffwind) · [PhysSkin](#physskin) · [MeGAS](#megas)<br>
+[LavaGS](#lavags) · [Water + Sand](#water-sand) · [Plant Wilting](#plant-wilting) · [StormGS](#stormgs)<br>
+[ThunderGS](#thundergs) · [Capillary Contact](#capillary-contact) · [Ice Melting](#ice-melting) · [Fire-X GS](#fire-x-gs)
 
 [**Get started**](INSTALL.md) &nbsp; / &nbsp; [**Download assets**](ASSETS.md) &nbsp; / &nbsp; [**Video gallery**](media/index.html)
 
@@ -25,7 +26,7 @@ to watch the full video.
 
 <a id="rainygs"></a>
 
-## RainyGS
+## <img src="media/project-icons/rainygs.svg" width="32" height="32" align="absmiddle" alt=""> RainyGS
 
 [RainyGS](https://pku-vcl-geometry.github.io/RainyGS/) synthesizes rain, splashes, and water effects in Gaussian scenes.
 
@@ -41,7 +42,7 @@ to watch the full video.
 
 <a id="gaussian-splashing"></a>
 
-## Gaussian Splashing
+## <img src="media/project-icons/gaussian-splashing.svg" width="32" height="32" align="absmiddle" alt=""> Gaussian Splashing
 
 [Gaussian Splashing](https://gaussiansplashing.github.io/) unifies particles for fluid and solid motion synthesis and Gaussian rendering.
 
@@ -57,7 +58,7 @@ to watch the full video.
 
 <a id="enliveninggs"></a>
 
-## EnliveningGS
+## <img src="media/project-icons/enliveninggs.svg" width="32" height="32" align="absmiddle" alt=""> EnliveningGS
 
 [EnliveningGS](https://gapszju.github.io/EnliveningGS/) gives 3D Gaussian objects active locomotion through muscle-driven deformation and contact.
 
@@ -73,7 +74,7 @@ to watch the full video.
 
 <a id="magnetic-mpm"></a>
 
-## Magnetic MPM
+## <img src="media/project-icons/magnetic-mpm.svg" width="32" height="32" align="absmiddle" alt=""> Magnetic MPM
 
 [A Material Point Method for Nonlinearly Magnetized Materials](https://binwangbfa.github.io/publication/siga21_mpm/) couples nonlinear magnetic fields with deformable solids and viscous fluids.
 
@@ -89,7 +90,7 @@ to watch the full video.
 
 <a id="snowygs"></a>
 
-## SnowyGS
+## <img src="media/project-icons/snowygs.svg" width="32" height="32" align="absmiddle" alt=""> SnowyGS
 
 SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.stomakhin.com/research/snow.html) with Gaussian scenes for wind-driven snowfall and accumulated snow.
 
@@ -105,7 +106,7 @@ SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.st
 
 <a id="diffwind"></a>
 
-## DiffWind
+## <img src="media/project-icons/diffwind.svg" width="32" height="32" align="absmiddle" alt=""> DiffWind
 
 [DiffWind](https://github.com/zju3dv/DiffWind) models wind-driven Gaussian object dynamics through differentiable fluid-solid coupling with LBM and MPM.
 
@@ -121,7 +122,7 @@ SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.st
 
 <a id="physskin"></a>
 
-## PhysSkin
+## <img src="media/project-icons/physskin.svg" width="32" height="32" align="absmiddle" alt=""> PhysSkin
 
 [PhysSkin](https://github.com/zju3dv/PhysSkin) learns continuous neural skinning fields for real-time, generalizable physics-based animation across diverse 3D shapes.
 
@@ -137,7 +138,7 @@ SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.st
 
 <a id="megas"></a>
 
-## MeGAS
+## <img src="media/project-icons/megas.svg" width="32" height="32" align="absmiddle" alt=""> MeGAS
 
 [MeGAS](https://zju3dv.github.io/MeGAS/) incorporates thermomechanical phase-change dynamics with temperature fields and thermomechanical phase transitions to Gaussian scenes for melting and solidification.
 
@@ -151,7 +152,7 @@ SnowyGS combines [A Material Point Method for Snow Simulation](https://alexey.st
 
 <a id="lavags"></a>
 
-## LavaGS
+## <img src="media/project-icons/lavags.svg" width="32" height="32" align="absmiddle" alt=""> LavaGS
 
 LavaGS combines [Augmented MPM for Phase-Change and Varied Materials](https://www.cs.ucr.edu/~craigs/papers/2014-melting/paper.pdf) with Gaussian scenes for lava flow, crust formation, rock contact, and thermal emission.
 
@@ -167,7 +168,7 @@ LavaGS combines [Augmented MPM for Phase-Change and Varied Materials](https://ww
 
 <a id="water-sand"></a>
 
-## Water + Sand
+## <img src="media/project-icons/water-sand.svg" width="32" height="32" align="absmiddle" alt=""> Water + Sand
 
 Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mixtures](https://lwkobe.github.io/papers/XWYDL2026/) with Gaussian rendering for 3D sandcastle erosion, sedimentation, and dam overtopping.
 
@@ -183,7 +184,7 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 <a id="plant-wilting"></a>
 
-## Plant Wilting
+## <img src="media/project-icons/plant-wilting.svg" width="32" height="32" align="absmiddle" alt=""> Plant Wilting
 
 [A Physically-inspired Approach to the Simulation of Plant Wilting](https://dl.acm.org/doi/10.1145/3610548.3618218) couples water transport and material softening to animate drying plants, rendered here with 3D Gaussians.
 
@@ -199,7 +200,7 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 <a id="stormgs"></a>
 
-## StormGS
+## <img src="media/project-icons/stormgs.svg" width="32" height="32" align="absmiddle" alt=""> StormGS
 
 [Cyclogenesis: Simulating Hurricanes and Tornadoes](https://computationalsciences.org/publications/amador-herrera-2024-cyclogenesis.html) brings rotating clouds, rain, sea spray, and terrain-driven dust to Gaussian scenes.
 
@@ -215,7 +216,7 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 <a id="thundergs"></a>
 
-## ThunderGS
+## <img src="media/project-icons/thundergs.svg" width="32" height="32" align="absmiddle" alt=""> ThunderGS
 
 [Thunderstruck: Visually Simulating Electrical Storms](https://jonathank.de/research/paper/Herrera2025_thunderstruck.pdf) brings electric-field-driven lightning branches, ground attachment, and flash illumination to Gaussian scenes.
 
@@ -231,7 +232,7 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 <a id="capillary-contact"></a>
 
-## Capillary Contact
+## <img src="media/project-icons/capillary-contact.svg" width="32" height="32" align="absmiddle" alt=""> Capillary Contact
 
 [Solid-Fluid Interaction with Surface-Tension-Dominant Contact](https://arxiv.org/abs/2105.08471) couples surface tension and solid contact to support floating objects and produce capillary clustering.
 
@@ -247,7 +248,7 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 
 <a id="ice-melting"></a>
 
-## Ice Melting
+## <img src="media/project-icons/ice-melting.svg" width="32" height="32" align="absmiddle" alt=""> Ice Melting
 
 [Fast Particle-based Visual Simulation of Ice Melting](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x) and [Ice Melting Simulation with Water Flow Handling](https://people.cs.nycu.edu.tw/~cswingo/research/papers/Ice%20Melting%20Simulation_Lii_Wong.pdf) explore particle heat transfer, melting ice, and flowing water.
 
@@ -260,6 +261,22 @@ Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mix
 </table>
 
 [**Code & run guide →**](ice_melting/README.md)
+
+<a id="fire-x-gs"></a>
+
+## <img src="media/project-icons/fire-x-gs.svg" width="32" height="32" align="absmiddle" alt=""> Fire-X GS
+
+[Fire-X: Extinguishing Fire with Stoichiometric Heat Release](https://helgewrede.github.io/firex/) and [FieryGS](https://pku-vcl-geometry.github.io/FieryGS/) bring fire, water-driven cooling, and persistent carbonization to Gaussian scenes.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><a href="media/firex_gs/firewoods.mp4"><img src="media/firex_gs/firewoods.gif" width="360" alt="Firewoods burning and cooling under an overhead spray"></a><br><b>Firewoods</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/firex_gs/playground.mp4"><img src="media/firex_gs/playground.gif" width="360" alt="Water suppressing a fire in wooden playground towers"></a><br><b>Playground</b></td>
+    <td align="center" valign="top" width="33%"><a href="media/firex_gs/bonsai.mp4"><img src="media/firex_gs/bonsai.gif" width="360" alt="A diagonal spray cooling the burning Bonsai ornament"></a><br><b>Bonsai</b></td>
+  </tr>
+</table>
+
+[**Code & run guide →**](firex_gs/README.md)
 
 ---
 
@@ -293,6 +310,7 @@ storm_gs/             Moist vortices, rain, sea spray, and transported dust
 thunder_gs/           Electric discharge, grounded terrain, and flash lighting
 surface_tension/      Capillary contact, stirring, surface currents, and Cycles rendering
 ice_melting/          Heat transport, phase change, rigid ice, and meltwater
+firex_gs/             Thermochemical fire, water suppression, and Gaussian carbonization
 physstudio/           Shared launcher, paths, and download utilities
 media/                Demo videos, animated previews, and an HTML gallery
 ```

@@ -56,3 +56,11 @@ shape matching, and ice/water surface forces from the visual ice-melting
 literature. [Paper and asset references](ice_melting/references/sources.json)
 record the source links and pinned Stanford Bunny download. Blender supplies
 Cycles rendering; the other scene geometry is procedural.
+
+Fire-X GS uses the thermochemical formulation of
+[Fire-X](https://helgewrede.github.io/firex/) and the Gaussian surface and fire
+rendering design of [FieryGS](https://pku-vcl-geometry.github.io/FieryGS/).
+The CIE matching table is included with FieryGS's
+[Apache-2.0 license](firex_gs/LICENSE.reference); the SH reference evaluator
+retains its PlenOctree Authors BSD notice. The Warp solver and water coupling
+are implemented here. [Pinned sources and asset links](firex_gs/references/sources.json).

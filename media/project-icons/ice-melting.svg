@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Ice Melting physics icon</title>
+  <g stroke="#599cbb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m11 12 15-5 12 7-15 6Z" fill="#599cbb18"/>
+      <path d="M11 12v16l12 7V20m15-6v12"/>
+      <path d="m16 16 7 4 10-3" stroke="#7ac1cf" stroke-width="1.7"/>
+      <path d="M35 26c-3 4-4 6-4 8a4 4 0 0 0 8 0c0-2-1-4-4-8Z" fill="#599cbb18" stroke="#7ac1cf"/>
+      <path d="M7 37c0 7 34 7 34 1M15 37c3 2 9 3 14 2" stroke="#7ac1cf"/>
+      </g>
+</svg>

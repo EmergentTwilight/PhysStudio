@@ -1,4 +1,4 @@
-# Plant Wilting
+# <img src="../media/project-icons/plant-wilting.svg" width="40" height="40" align="absmiddle" alt=""> Plant Wilting
 
 [A Physically-inspired Approach to the Simulation of Plant Wilting](https://dl.acm.org/doi/10.1145/3610548.3618218) couples water transport and material softening to animate drying plants, rendered here with 3D Gaussians.
 

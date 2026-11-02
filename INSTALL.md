@@ -106,3 +106,14 @@ python -m physstudio run ice cubes --gpu 0
 See [Ice Melting](ice_melting/README.md) for the arch, Bunny download, and replay.
 `--frames` selects the number of saved states and video frames, with at least two;
 short runs retain the normal time interval between frames.
+
+Fire-X GS uses the shared Warp / gsplat environment and Matplotlib for its
+diagnostic reports:
+
+```bash
+python -m firex_gs.fetch --scene all
+python -m physstudio run firex firewoods --gpu 0
+```
+
+See [Fire-X GS](firex_gs/README.md) for Playground, Bonsai, frozen replay, and
+matched no-water controls. Use `--frames 2 --width 320` for a short pipeline check.

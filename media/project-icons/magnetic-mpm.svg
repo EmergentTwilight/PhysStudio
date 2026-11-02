@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Magnetic MPM physics icon</title>
+  <g stroke="#8575ad" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 9v14a13 13 0 0 0 26 0V9h-8v14a5 5 0 0 1-10 0V9Z" fill="#8575ad18"/>
+      <path d="M11 15h8M29 15h8" stroke="#51a2b9"/>
+      <path d="M6 20c-5 11 4 23 18 23s23-12 18-23" stroke="#51a2b9" stroke-dasharray="2 4"/>
+      <path d="m21 7 3 6 3-6" stroke="#51a2b9"/>
+      </g>
+</svg>

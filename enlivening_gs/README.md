@@ -1,4 +1,4 @@
-# EnliveningGS · active Gaussian locomotion
+# <img src="../media/project-icons/enliveninggs.svg" width="40" height="40" align="absmiddle" alt=""> EnliveningGS · active Gaussian locomotion
 
 [EnliveningGS: Active Locomotion of 3DGS](https://gapszju.github.io/EnliveningGS/)
 animates Gaussian objects through muscle actuation, deformable simulation,

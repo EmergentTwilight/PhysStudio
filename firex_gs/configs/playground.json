@@ -1,0 +1,11 @@
+{
+  "scene": "playground",
+  "spectral_emission": 180,
+  "thermal_detail": 700,
+  "flame_detail_scale": 22,
+  "spectral_smoke_scale": 0.35,
+  "flame_absorption": 0.2,
+  "carbon_skin_depth": 0.0013,
+  "voxel_light_gain": 0.8,
+  "light_count": 96
+}

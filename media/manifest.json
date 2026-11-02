@@ -549,5 +549,47 @@
     "nb_frames": "240",
     "duration": "8.000000",
     "sha256": "3a5abdd1de192f38c2a8d47dd0f31dead93dcf6e48784596871aa914ed61e972"
+  },
+  {
+    "method": "firex_gs",
+    "scene": "firewoods",
+    "label": "Firewoods",
+    "paper": "https://helgewrede.github.io/firex/",
+    "video": "media/firex_gs/firewoods.mp4",
+    "command": "python -m physstudio run firex firewoods --gpu 0",
+    "sha256": "bf2ab9a6f66d24cff8633d1d2d18310d735c9b73e2b53c733f9184f79a52d4b9",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "duration": "14.000000",
+    "nb_frames": "420"
+  },
+  {
+    "method": "firex_gs",
+    "scene": "playground",
+    "label": "Playground",
+    "paper": "https://helgewrede.github.io/firex/",
+    "video": "media/firex_gs/playground.mp4",
+    "command": "python -m physstudio run firex playground --gpu 0",
+    "sha256": "456daef7f95a05eca451952b596e488e4b3d7ac136ae8022fb786e8f253605a7",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "duration": "15.000000",
+    "nb_frames": "450"
+  },
+  {
+    "method": "firex_gs",
+    "scene": "bonsai",
+    "label": "Bonsai",
+    "paper": "https://helgewrede.github.io/firex/",
+    "video": "media/firex_gs/bonsai.mp4",
+    "command": "python -m physstudio run firex bonsai --gpu 0",
+    "sha256": "3bc593b99ef20d2ec79d60b64f19f97b24ec6f5ce579a9c02b45f5c281a46fe1",
+    "width": 1280,
+    "height": 800,
+    "r_frame_rate": "30/1",
+    "duration": "15.000000",
+    "nb_frames": "450"
   }
 ]

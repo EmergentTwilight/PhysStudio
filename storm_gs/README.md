@@ -1,4 +1,4 @@
-# StormGS · storms in Gaussian scenes
+# <img src="../media/project-icons/stormgs.svg" width="40" height="40" align="absmiddle" alt=""> StormGS · storms in Gaussian scenes
 
 [Cyclogenesis: Simulating Hurricanes and Tornadoes](https://computationalsciences.org/publications/amador-herrera-2024-cyclogenesis.html)
 provides the moist-flow formulation for rotating clouds, rain, sea spray, and

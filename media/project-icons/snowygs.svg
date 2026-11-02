@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>SnowyGS physics icon</title>
+  <g stroke="#438fa9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24 6v30M11 13l26 16M11 29l26-16M19 9l5 5 5-5M19 33l5-5 5 5M12 19l6-1-1-6M31 30l-1-6 6-1M12 23l6 1-1 6M31 12l-1 6 6 1"/>
+      <path d="M6 41c5-3 8 2 13 0s7-2 12 0 8-2 11 0" stroke="#84b5cd"/>
+      </g>
+</svg>

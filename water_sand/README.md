@@ -1,4 +1,4 @@
-# Water + Sand · 3D LBM–MPM
+# <img src="../media/project-icons/water-sand.svg" width="40" height="40" align="absmiddle" alt=""> Water + Sand · 3D LBM–MPM
 
 Water + Sand combines [Volume-Preserving LBM-MPM Coupling for Air-Water-Sand Mixtures](https://lwkobe.github.io/papers/XWYDL2026/) with Gaussian rendering for 3D sandcastle erosion, sedimentation, and dam overtopping.
 

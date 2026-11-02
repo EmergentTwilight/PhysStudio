@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>MeGAS — a crystalline solid flowing into liquid Gaussians</title>
+  <defs>
+    <linearGradient id="top" x1="13" y1="8" x2="49" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#91d9ea"/><stop offset="1" stop-color="#519bc5"/>
+    </linearGradient>
+    <linearGradient id="left" x1="12" y1="21" x2="35" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58a9c8"/><stop offset=".5" stop-color="#688bb4"/><stop offset="1" stop-color="#c87f83"/>
+    </linearGradient>
+    <linearGradient id="phase" x1="48" y1="18" x2="35" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#679fcb"/><stop offset=".45" stop-color="#c88b9a"/><stop offset="1" stop-color="#e38c62"/>
+    </linearGradient>
+    <linearGradient id="pool" x1="11" y1="48" x2="54" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c1819f"/><stop offset="1" stop-color="#ec9c6e"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 52c0-5 13-7 23-7s23 3 23 7-11 7-23 7-23-2-23-7Z" fill="url(#pool)" fill-opacity=".45"/>
+    <path d="m12 16 20-10 20 10-20 10Z" fill="url(#top)" stroke="#478eb7" stroke-width="1.6"/>
+    <path d="M12 16v21c0 5 6 4 7 9 1 4 8 5 13 3V26Z" fill="url(#left)" stroke="#688db8" stroke-width="1.5"/>
+    <path d="m32 26 20-10v18c0 6-6 5-6 9v6c0 6-8 6-8 0v-9c0-3-6-2-6 3v6Z" fill="url(#phase)" stroke="#9c8bb1" stroke-width="1.5"/>
+    <path d="m14 16 18 9 18-9M32 26v11" stroke="#d0e9f4" stroke-width="1.6"/>
+    <path d="m23 11 18 9" stroke="#d0e9f4" stroke-opacity=".6" stroke-width="1.2"/>
+    <path d="M24 39c4 2 7 2 9 1" stroke="#ebbbc1" stroke-width="1.5"/>
+    <path d="M16 52c4 3 13 4 21 3M47 53l4-1" stroke="#c8877b" stroke-width="1.5"/>
+    <ellipse cx="27" cy="51" rx="5" ry="2.4" fill="#e5a28a"/>
+  </g>
+</svg>

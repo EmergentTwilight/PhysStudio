@@ -1,4 +1,4 @@
-# Magnetic MPM · fields meet Gaussian matter
+# <img src="../media/project-icons/magnetic-mpm.svg" width="40" height="40" align="absmiddle" alt=""> Magnetic MPM · fields meet Gaussian matter
 
 [A Material Point Method for Nonlinearly Magnetized Materials](https://binwangbfa.github.io/publication/siga21_mpm/)
 couples nonlinear magnetization to MPM for magnetic fluids and deformable solids.

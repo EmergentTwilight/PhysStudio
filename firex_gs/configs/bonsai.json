@@ -1,0 +1,64 @@
+{
+  "scene": "bonsai",
+  "origin": [
+    -1.35,
+    -1.35,
+    -3.55
+  ],
+  "shape": [
+    96,
+    96,
+    128
+  ],
+  "dx": 0.035,
+  "nozzle": [
+    0.95,
+    -0.05,
+    -0.25
+  ],
+  "target": [
+    0.4,
+    0.5,
+    -1.35
+  ],
+  "sweep": 0.35,
+  "cone": 0.6,
+  "speed": 6.0,
+  "flow": 1.2,
+  "parcel_mass": 0.00025,
+  "water_start": 2.0,
+  "water_stop": 10.0,
+  "warmup": 2.0,
+  "wood_density": 12.0,
+  "wood_initial_temperature": 770.0,
+  "pyrolysis_rate": 0.006,
+  "wood_transfer": 110.0,
+  "wood_conductivity": 0.12,
+  "camera": {
+    "target": [
+      0.45,
+      0.45,
+      -1.78
+    ],
+    "fov": 38.0,
+    "orbit": {
+      "azimuth_start": 63.0,
+      "azimuth_end": 125.0,
+      "radius_start": 3.3,
+      "radius_end": 3.1,
+      "height_start": 0.9,
+      "height_end": 0.8
+    }
+  },
+  "exposure": 0.95,
+  "smoke_extinction": 1.8,
+  "steam_extinction": 1.5,
+  "spectral_emission": 140.0,
+  "thermal_detail": 600.0,
+  "flame_detail_scale": 22.0,
+  "spectral_smoke_scale": 0.35,
+  "flame_absorption": 0.2,
+  "carbon_skin_depth": 0.0012,
+  "voxel_light_gain": 0.6,
+  "light_count": 96
+}

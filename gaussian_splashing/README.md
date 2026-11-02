@@ -1,4 +1,4 @@
-# Gaussian Splashing · turn splats into liquid
+# <img src="../media/project-icons/gaussian-splashing.svg" width="40" height="40" align="absmiddle" alt=""> Gaussian Splashing · turn splats into liquid
 
 [Gaussian Splashing: Unified Particles for Versatile Motion Synthesis and
 Rendering](https://gaussiansplashing.github.io/) connects particle simulation

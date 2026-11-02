@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>LavaGS physics icon</title>
+  <g stroke="#ba7859" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m5 40 12-23 6 3 7-3 13 23Z" fill="#ba785918"/>
+      <path d="M17 17c3 5 10 6 13 0M23 21c-5 4 4 7 0 11s-1 7 3 8" stroke="#e16c42" stroke-width="3.8"/>
+      <path d="M20 12c-5-4 2-5-1-9M28 12c-2-3 4-4 1-8" stroke="#e16c42"/>
+      <path d="m11 33 4-4m17 5 3 3" stroke="#e16c42" stroke-width="1.8"/>
+      </g>
+</svg>

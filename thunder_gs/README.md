@@ -1,4 +1,4 @@
-# ThunderGS · electrical storms in Gaussian scenes
+# <img src="../media/project-icons/thundergs.svg" width="40" height="40" align="absmiddle" alt=""> ThunderGS · electrical storms in Gaussian scenes
 
 [Thunderstruck: Visually Simulating Electrical Storms](https://jonathank.de/research/paper/Herrera2025_thunderstruck.pdf)
 provides the electric-field-driven discharge model for branched lightning,

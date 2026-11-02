@@ -1,4 +1,4 @@
-# Ice Melting
+# <img src="../media/project-icons/ice-melting.svg" width="40" height="40" align="absmiddle" alt=""> Ice Melting
 
 [Fast Particle-based Visual Simulation of Ice Melting](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2010.01810.x)
 (Computer Graphics Forum, 2010) and

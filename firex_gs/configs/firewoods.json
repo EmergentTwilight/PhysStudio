@@ -1,0 +1,61 @@
+{
+  "origin": [
+    -1.8,
+    -1.9,
+    -2.55
+  ],
+  "shape": [
+    104,
+    104,
+    136
+  ],
+  "dx": 0.035,
+  "nozzle": [
+    0.15,
+    -0.15,
+    -0.2
+  ],
+  "target": [
+    -0.25,
+    -0.43,
+    -2.1
+  ],
+  "cone": 0.28,
+  "flow": 1.2,
+  "parcel_mass": 0.00022,
+  "sweep": 0.18,
+  "speed": 4.8,
+  "wood_transfer": 110.0,
+  "pyrolysis_rate": 0.006,
+  "water_stop": 8.5,
+  "title": "Firewoods | Overhead spray suppression",
+  "camera": {
+    "target": [
+      -0.25,
+      -0.38,
+      -1.35
+    ],
+    "fov": 49,
+    "orbit": {
+      "azimuth_start": 28,
+      "azimuth_end": 85,
+      "radius_start": 2.9,
+      "radius_end": 2.65,
+      "height_start": 1.0,
+      "height_end": 1.15
+    }
+  },
+  "flame_gain": 4.8,
+  "smoke_extinction": 2.2,
+  "exposure": 0.9,
+  "spectral_emission": 240,
+  "thermal_detail": 850,
+  "flame_detail_scale": 22,
+  "spectral_smoke_scale": 0.35,
+  "flame_absorption": 0.2,
+  "carbon_skin_depth": 0.001,
+  "carbon_threshold": 0.7,
+  "voxel_light_gain": 1.0,
+  "light_count": 96,
+  "illumination_radius": 4.0
+}
